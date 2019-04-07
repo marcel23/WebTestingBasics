@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Go to Orange Login Page, login and click timesheet and verify it.</description>
+   <name>Clicking TimeSheet after logging in</name>
+   <tag>Test4</tag>
+   <comment></comment>
+   <testCaseGuid>dd703334-cbeb-4357-b64a-9bd8f7db7379</testCaseGuid>
+</TestCaseEntity>

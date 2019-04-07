@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is the second test case</description>
+   <name>Login to CURA Health Website</name>
+   <tag>Test 2</tag>
+   <comment></comment>
+   <testCaseGuid>7b258e7d-2387-4d08-aacc-53dafd35874b</testCaseGuid>
+</TestCaseEntity>

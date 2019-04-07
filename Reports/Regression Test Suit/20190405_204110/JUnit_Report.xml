@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test Suit" time="203" tests="2" failures="0" errors="0">
+   <testsuite name="Regression Test Suit" tests="2" failures="0" errors="0" time="203" timestamp="2019-04-05 20:41:11" hostname="md - 192.168.0.12" id="Test Suites/Regression Test Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Kata\\Login\\Reports\\Regression Test Suit\\20190405_204110"/>
+         <property name="logFiles" value="E:\\Kata\\Login\\Reports\\Regression Test Suit\\20190405_204110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="md - 192.168.0.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="f581593d64cc6409e1221f6c062816ea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 4" classname="Test Cases/Test Case 4" status="PASSED">
+         <system-out><![CDATA[2019-04-05 20:41:11 - [TEST_CASE][PASSED] - Test Cases/Test Case 4: Test Cases/Test Case 4
+
+2019-04-05 20:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 20:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 20:41:12 - [MESSAGE][INFO] - Action delay is set to 2 seconds
+
+2019-04-05 20:41:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 20:41:19 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2019-04-05 20:41:21 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2019-04-05 20:41:21 - [TEST_STEP][PASSED] - setText(findTestObject("OR_Test4/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/OR_Test4/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-05 20:41:29 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_Test4/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-05 20:41:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("OR_Test4/Page_OrangeHRM/input_Username_txtPassword"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OR_Test4/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-05 20:41:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR_Test4/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-05 20:41:35 - [TEST_STEP][PASSED] - click(findTestObject("OR_Test4/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/OR_Test4/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-05 20:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Test4/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-05 20:41:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OR_Test4/Page_OrangeHRM/img"), 0): Object 'Object Repository/OR_Test4/Page_OrangeHRM/img' is present
+
+2019-04-05 20:41:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-05 20:41:43 - [MESSAGE][PASSED] - Object 'Object Repository/OR_Test4/Page_OrangeHRM/img' is present
+
+2019-04-05 20:41:43 - [TEST_STEP][PASSED] - click(findTestObject("OR_Test4/Page_OrangeHRM/img")): Object: 'Object Repository/OR_Test4/Page_OrangeHRM/img' is clicked on
+
+2019-04-05 20:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_Test4/Page_OrangeHRM/img' is clicked on
+
+2019-04-05 20:41:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("OR_Test4/Page_OrangeHRM/h1_Timesheets Pending Action"), "Timesheets Pending Action"): Actual text and expected text of test object 'Object Repository/OR_Test4/Page_OrangeHRM/h1_Timesheets Pending Action' are matched.
+
+2019-04-05 20:41:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OR_Test4/Page_OrangeHRM/h1_Timesheets Pending Action' are matched.
+
+2019-04-05 20:41:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 20:41:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/First Appointment" classname="Test Cases/First Appointment" status="PASSED">
+         <system-out><![CDATA[2019-04-05 20:41:54 - [TEST_CASE][PASSED] - Test Cases/First Appointment: Test Cases/First Appointment
+
+2019-04-05 20:41:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-05 20:41:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-05 20:42:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-05 20:42:00 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-05 20:42:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-05 20:42:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-04-05 20:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-04-05 20:42:07 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:42:13 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:42:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-04-05 20:42:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-04-05 20:42:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-04-05 20:42:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-04-05 20:42:27 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:42:33 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-04-05 20:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-04-05 20:42:37 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:42:43 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:42:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+2019-04-05 20:43:11 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+2019-04-05 20:43:11 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:43:17 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2019-04-05 20:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission' is clicked on
+
+2019-04-05 20:43:21 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:43:27 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/div_Medicare                                                                             Medicaid                                                                             None")): Object: 'Object Repository/Page_CURA Healthcare Service/div_Medicare                                                                             Medicaid                                                                             None' is clicked on
+
+2019-04-05 20:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/div_Medicare                                                                             Medicaid                                                                             None' is clicked on
+
+2019-04-05 20:43:32 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:43:38 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2019-04-05 20:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2019-04-05 20:43:42 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:43:48 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:43:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar")): Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar' is clicked on
+
+2019-04-05 20:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar' is clicked on
+
+2019-04-05 20:43:52 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:43:58 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_26")): Object: 'Object Repository/Page_CURA Healthcare Service/td_26' is clicked on
+
+2019-04-05 20:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_26' is clicked on
+
+2019-04-05 20:44:02 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:44:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:44:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "Hi There"): Text 'Hi There' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-04-05 20:44:16 - [MESSAGE][PASSED] - Text 'Hi There' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-04-05 20:44:16 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:44:22 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:44:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-04-05 20:44:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-04-05 20:44:26 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-05 20:44:32 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-05 20:44:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-05 20:44:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-05 20:41:11 - [TEST_SUITE][PASSED] - Regression Test Suit: Test Cases/First Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

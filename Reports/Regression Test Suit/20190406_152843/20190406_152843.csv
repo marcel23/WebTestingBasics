@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Test Suit,Firefox 66.0,All the Regression test are run here.,2019-04-06 15:28:45,2019-04-06 15:30:06,1m - 21.696s,PASSED
+,,,,,,
+Test Cases/Clicking TimeSheet after logging in,Firefox 66.0,"Go to Orange Login Page, login and click timesheet and verify it.",2019-04-06 15:28:45,2019-04-06 15:28:54,8.830s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-04-06 15:28:45,2019-04-06 15:28:50,5.048s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Firefox 66.0,,2019-04-06 15:28:50,2019-04-06 15:28:51,0.758s,PASSED
+"setText(findTestObject(""OR_Test4/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 66.0,,2019-04-06 15:28:51,2019-04-06 15:28:51,0.074s,PASSED
+"setEncryptedText(findTestObject(""OR_Test4/Page_OrangeHRM/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 66.0,,2019-04-06 15:28:51,2019-04-06 15:28:51,0.077s,PASSED
+"click(findTestObject(""OR_Test4/Page_OrangeHRM/input_Password_Submit""))",Firefox 66.0,,2019-04-06 15:28:51,2019-04-06 15:28:52,1.295s,PASSED
+"verifyElementPresent(findTestObject(""OR_Test4/Page_OrangeHRM/img""), 0)",Firefox 66.0,,2019-04-06 15:28:52,2019-04-06 15:28:52,0.016s,PASSED
+"click(findTestObject(""OR_Test4/Page_OrangeHRM/img""))",Firefox 66.0,,2019-04-06 15:28:52,2019-04-06 15:28:53,0.594s,PASSED
+"verifyElementText(findTestObject(""OR_Test4/Page_OrangeHRM/h1_Timesheets Pending Action""), ""Timesheets Pending Action"")",Firefox 66.0,,2019-04-06 15:28:53,2019-04-06 15:28:53,0.025s,PASSED
+closeBrowser(),Firefox 66.0,,2019-04-06 15:28:53,2019-04-06 15:28:54,0.580s,PASSED
+,,,,,,
+Test Cases/First Appointment,Firefox 66.0,Create the first Appointment,2019-04-06 15:28:54,2019-04-06 15:30:06,1m - 12.521s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-04-06 15:28:54,2019-04-06 15:28:57,3.025s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 66.0,,2019-04-06 15:28:57,2019-04-06 15:28:58,0.833s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Firefox 66.0,,2019-04-06 15:28:58,2019-04-06 15:28:58,0.151s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:28:58,2019-04-06 15:29:04,6.015s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Firefox 66.0,,2019-04-06 15:29:04,2019-04-06 15:29:04,0.050s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Firefox 66.0,,2019-04-06 15:29:04,2019-04-06 15:29:04,0.038s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:04,2019-04-06 15:29:10,6.001s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Firefox 66.0,,2019-04-06 15:29:10,2019-04-06 15:29:10,0.201s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:10,2019-04-06 15:29:16,6.002s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center""), ""Hongkong CURA Healthcare Center"", true)",Firefox 66.0,,2019-04-06 15:29:16,2019-04-06 15:29:16,0.310s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:16,2019-04-06 15:29:22,6.001s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission""))",Firefox 66.0,,2019-04-06 15:29:22,2019-04-06 15:29:23,0.226s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:23,2019-04-06 15:29:29,6.000s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Medicare                                                                             Medicaid                                                                             None""))",Firefox 66.0,,2019-04-06 15:29:29,2019-04-06 15:29:29,0.229s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:29,2019-04-06 15:29:35,6.001s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Firefox 66.0,,2019-04-06 15:29:35,2019-04-06 15:29:35,0.224s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:35,2019-04-06 15:29:41,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar""))",Firefox 66.0,,2019-04-06 15:29:41,2019-04-06 15:29:41,0.243s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:41,2019-04-06 15:29:47,6.001s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_26""))",Firefox 66.0,,2019-04-06 15:29:47,2019-04-06 15:29:48,0.225s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:48,2019-04-06 15:29:54,6.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Hi There"")",Firefox 66.0,,2019-04-06 15:29:54,2019-04-06 15:29:54,0.037s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:29:54,2019-04-06 15:30:00,6.003s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Firefox 66.0,,2019-04-06 15:30:00,2019-04-06 15:30:00,0.119s,PASSED
+delay(6),Firefox 66.0,,2019-04-06 15:30:00,2019-04-06 15:30:06,6.002s,PASSED
+closeBrowser(),Firefox 66.0,,2019-04-06 15:30:06,2019-04-06 15:30:06,0.477s,PASSED

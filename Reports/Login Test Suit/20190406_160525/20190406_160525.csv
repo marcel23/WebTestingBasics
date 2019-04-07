@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Test Suit,Chrome 73.0.3683.86,,2019-04-06 16:05:26,2019-04-06 16:06:08,41.726s,PASSED
+,,,,,,
+Test Cases/Login to CURA Health Website,Chrome 73.0.3683.86,This is the second test case,2019-04-06 16:05:26,2019-04-06 16:06:08,41.532s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-06 16:05:26,2019-04-06 16:05:30,3.151s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.86,,2019-04-06 16:05:30,2019-04-06 16:05:30,0.739s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 73.0.3683.86,,2019-04-06 16:05:30,2019-04-06 16:05:30,0.081s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-06 16:05:30,2019-04-06 16:05:36,6.013s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 73.0.3683.86,,2019-04-06 16:05:36,2019-04-06 16:05:37,0.195s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-06 16:05:37,2019-04-06 16:05:43,6.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 73.0.3683.86,,2019-04-06 16:05:43,2019-04-06 16:05:43,0.106s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-06 16:05:43,2019-04-06 16:05:49,6.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""npnYCJoQVm0="")",Chrome 73.0.3683.86,,2019-04-06 16:05:49,2019-04-06 16:05:49,0.105s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-06 16:05:49,2019-04-06 16:05:55,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 73.0.3683.86,,2019-04-06 16:05:55,2019-04-06 16:05:55,0.198s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-06 16:05:55,2019-04-06 16:06:01,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""))",Chrome 73.0.3683.86,,2019-04-06 16:06:01,2019-04-06 16:06:01,0.049s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-06 16:06:01,2019-04-06 16:06:07,6.002s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-06 16:06:07,2019-04-06 16:06:08,0.592s,PASSED

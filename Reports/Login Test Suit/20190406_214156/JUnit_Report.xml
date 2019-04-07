@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suit" time="46" tests="2" failures="0" errors="0">
+   <testsuite name="Login Test Suit" tests="2" failures="0" errors="0" time="46" timestamp="2019-04-06 21:41:57" hostname="DESKTOP-799DIIE$ - 192.168.0.12" id="Test Suites/Login Test Suit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Kata\\Login\\Reports\\Login Test Suit\\20190406_214156"/>
+         <property name="logFiles" value="E:\\Kata\\Login\\Reports\\Login Test Suit\\20190406_214156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-799DIIE$ - 192.168.0.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="9b815927bbe8899e65fca8b6f593b1fc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login to CURA Health Website" classname="Test Cases/Login to CURA Health Website" status="PASSED">
+         <system-out><![CDATA[2019-04-06 21:41:57 - [TEST_CASE][PASSED] - Test Cases/Login to CURA Health Website: Test Cases/Login to CURA Health Website
+
+2019-04-06 21:41:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-06 21:41:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-06 21:41:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-06 21:42:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-06 21:42:01 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-06 21:42:01 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-06 21:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2019-04-06 21:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2019-04-06 21:42:01 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-06 21:42:07 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-06 21:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2019-04-06 21:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+2019-04-06 21:42:08 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-06 21:42:14 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-06 21:42:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-04-06 21:42:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-04-06 21:42:14 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-06 21:42:20 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-06 21:42:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "npnYCJoQVm0="): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-04-06 21:42:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-04-06 21:42:20 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-06 21:42:26 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-06 21:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-04-06 21:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-04-06 21:42:26 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-06 21:42:32 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-06 21:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid")): Object: 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid' is clicked on
+
+2019-04-06 21:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid' is clicked on
+
+2019-04-06 21:42:32 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-04-06 21:42:38 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-04-06 21:42:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-06 21:42:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OrangeHRM Login" classname="Test Cases/OrangeHRM Login" status="PASSED">
+         <system-out><![CDATA[2019-04-06 21:42:39 - [TEST_CASE][PASSED] - Test Cases/OrangeHRM Login: Test Cases/OrangeHRM Login
+
+2019-04-06 21:42:39 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/index.php/auth/login"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-04-06 21:42:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-06 21:42:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'
+
+2019-04-06 21:42:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/OrangeHRMLogo"), 3): Object 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/OrangeHRMLogo' is present
+
+2019-04-06 21:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/OrangeHRMLogo' is present
+
+2019-04-06 21:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox")): Object: 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox' is clicked on
+
+2019-04-06 21:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox' is clicked on
+
+2019-04-06 21:42:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox"), "Admin"): Text 'Admin' is set on object 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox'
+
+2019-04-06 21:42:41 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox'
+
+2019-04-06 21:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox")): Object: 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox' is clicked on
+
+2019-04-06 21:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox' is clicked on
+
+2019-04-06 21:42:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox'
+
+2019-04-06 21:42:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox'
+
+2019-04-06 21:42:41 - [TEST_STEP][PASSED] - click(findTestObject("OR_OrangeHRM Login/Page_OrangeHRM/LoginButton")): Object: 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/LoginButton' is clicked on
+
+2019-04-06 21:42:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/LoginButton' is clicked on
+
+2019-04-06 21:42:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-06 21:42:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-06 21:41:57 - [TEST_SUITE][PASSED] - Login Test Suit: Test Cases/OrangeHRM Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
