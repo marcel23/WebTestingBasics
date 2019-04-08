@@ -18,50 +18,50 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('OR_CURA/a_Make Appointment'))
 
 WebUI.delay(6)
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('OR_CURA/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.delay(6)
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.setEncryptedText(findTestObject('OR_CURA/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.delay(6)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
+WebUI.click(findTestObject('OR_CURA/button_Login'))
+
+WebUI.delay(6)
+
+WebUI.selectOptionByValue(findTestObject('OR_CURA/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
     'Hongkong CURA Healthcare Center', true)
 
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission'))
+WebUI.click(findTestObject('OR_CURA/input_Apply for hospital readmission_hospital_readmission'))
 
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Medicare                                                                             Medicaid                                                                             None'))
+WebUI.click(findTestObject('OR_CURA/div_Medicare                                                                             Medicaid                                                                             None'))
 
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs'))
+WebUI.click(findTestObject('OR_CURA/input_Medicaid_programs'))
 
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar'))
+WebUI.click(findTestObject('OR_CURA/span_Visit Date (Required)_glyphicon glyphicon-calendar'))
 
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_26'))
+WebUI.click(findTestObject('OR_CURA/td_26'))
 
 WebUI.delay(6)
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Hi There')
+WebUI.setText(findTestObject('OR_CURA/textarea_Comment_comment'), 'Hi There')
 
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+WebUI.click(findTestObject('OR_CURA/button_Book Appointment'))
 
 WebUI.delay(6)
 

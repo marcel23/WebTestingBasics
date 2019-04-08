@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login Test Suit,Chrome 73.0.3683.86,,2019-04-08 11:27:29,2019-04-08 11:28:16,46.265s,PASSED
+,,,,,,
+Test Cases/Login to CURA Health Website,Chrome 73.0.3683.86,This is the second test case,2019-04-08 11:27:30,2019-04-08 11:28:11,41.396s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-08 11:27:30,2019-04-08 11:27:33,3.032s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.86,,2019-04-08 11:27:33,2019-04-08 11:27:34,0.700s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 73.0.3683.86,,2019-04-08 11:27:34,2019-04-08 11:27:34,0.070s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 11:27:34,2019-04-08 11:27:40,6.014s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 73.0.3683.86,,2019-04-08 11:27:40,2019-04-08 11:27:40,0.170s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 11:27:40,2019-04-08 11:27:46,6.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 73.0.3683.86,,2019-04-08 11:27:46,2019-04-08 11:27:46,0.090s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 11:27:46,2019-04-08 11:27:52,6.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""npnYCJoQVm0="")",Chrome 73.0.3683.86,,2019-04-08 11:27:52,2019-04-08 11:27:52,0.098s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 11:27:52,2019-04-08 11:27:58,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 73.0.3683.86,,2019-04-08 11:27:58,2019-04-08 11:27:58,0.199s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 11:27:58,2019-04-08 11:28:04,6.002s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username and password are valid""))",Chrome 73.0.3683.86,,2019-04-08 11:28:04,2019-04-08 11:28:04,0.054s,PASSED
+delay(6),Chrome 73.0.3683.86,,2019-04-08 11:28:04,2019-04-08 11:28:11,6.003s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-08 11:28:11,2019-04-08 11:28:11,0.575s,PASSED
+,,,,,,
+Test Cases/OrangeHRM Login,Chrome 73.0.3683.86,Successfully Log into the Site,2019-04-08 11:28:11,2019-04-08 11:28:16,4.660s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/index.php/auth/login"")",Chrome 73.0.3683.86,,2019-04-08 11:28:11,2019-04-08 11:28:14,2.450s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/OrangeHRMLogo""), 3)",Chrome 73.0.3683.86,,2019-04-08 11:28:14,2019-04-08 11:28:14,0.023s,PASSED
+"click(findTestObject(""Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox""))",Chrome 73.0.3683.86,,2019-04-08 11:28:14,2019-04-08 11:28:14,0.048s,PASSED
+"setText(findTestObject(""Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/UserNameBox""), ""Admin"")",Chrome 73.0.3683.86,,2019-04-08 11:28:14,2019-04-08 11:28:14,0.063s,PASSED
+"click(findTestObject(""Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox""))",Chrome 73.0.3683.86,,2019-04-08 11:28:14,2019-04-08 11:28:14,0.046s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/OR_OrangeHRM Login/Page_OrangeHRM/PasswordBox""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 73.0.3683.86,,2019-04-08 11:28:14,2019-04-08 11:28:14,0.055s,PASSED
+"click(findTestObject(""OR_OrangeHRM Login/Page_OrangeHRM/LoginButton""))",Chrome 73.0.3683.86,,2019-04-08 11:28:14,2019-04-08 11:28:15,1.300s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-08 11:28:15,2019-04-08 11:28:16,0.565s,PASSED

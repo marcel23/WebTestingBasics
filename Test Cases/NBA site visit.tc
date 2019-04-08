@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Go to the site and close it</description>
+   <name>NBA site visit</name>
+   <tag>NBA</tag>
+   <comment></comment>
+   <testCaseGuid>85c5d431-12d7-47d5-8648-40ea26c02b5f</testCaseGuid>
+</TestCaseEntity>

@@ -22,4 +22,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/First Appointment</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>32bfe5d0-5577-4266-b284-17cade83d21e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NBA site visit</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
